@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #fff;
+}
+
+#dateTime {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.dark-btn {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-box {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+input, select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #ff9a9e;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6a88;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255,255,255,0.6);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* 🌙 Aesthetic Dark Mode */
+.dark {
+  background: linear-gradient(135deg, #3a3a5a, #2b5876);
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark input, 
+.dark select {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.dark li {
+  background: rgba(255,255,255,0.2);
+}
+
+.dark button {
+  background: #6a82fb;
+}
