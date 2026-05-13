@@ -41,7 +41,7 @@ A beautifully designed and minimal To-Do List web application focused on clean U
 
 ## Live Demo
 
-(Add your GitHub Pages link here after deployment)
+ https://jerosesandra18.github.io/Aesthetic-todo/
 
 ---
 
